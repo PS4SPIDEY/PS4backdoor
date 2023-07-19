@@ -22,7 +22,7 @@ https://www.youtube.com/@everyonelearntech
       
 """)
 s= socket.socket()
-s.bind(("192.168.43.218",1234))
+s.bind(("Your ip",1234))
 conn,add  = s.accept()
 print(add)
 
